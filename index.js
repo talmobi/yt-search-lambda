@@ -1,7 +1,9 @@
 const yts = require( 'yt-search' )
 
 exports.handler = async function ( evt ) {
-  const search = evt.search || evt.query
+  const params = evt.queryStringParameters || evt
+
+  const search = params.search || params.query
 
   if ( !search ) {
     return {

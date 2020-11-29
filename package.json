@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npm install && npm run clear && npm run zip",
+    "clear": "rm function.zip",
+    "zip": "zip -r function.zip .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

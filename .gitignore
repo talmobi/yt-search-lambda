@@ -1,6 +1,9 @@
 # dependencies from `npm install`
 node_modules
 
+# ignore zip archive ( npm run build )
+function.zip
+
 # vim temp files
 *.swp
 *.swo
