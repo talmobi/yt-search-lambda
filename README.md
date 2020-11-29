@@ -1,6 +1,9 @@
 # yt-search-lambda
 Example running simple yt-search API on aws lambda.
 
+## API Gateway Example URL
+https://69v539djw3.execute-api.us-east-1.amazonaws.com/default/yt-search-api-lambda?search=superman+theme
+
 ## Easy to use
 
 #### CLI usage
